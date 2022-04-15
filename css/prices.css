@@ -5,6 +5,10 @@
     margin-bottom: 60px;
 }
 
+.price-tittle img{
+    margin-right: 20px;
+}
+
 .price-content {
     display: flex;
     justify-content: space-between;
@@ -89,7 +93,7 @@ input:checked + .tab-label::after {
 
 input:checked ~ .tab-content {
     max-height: 100vh;
-    padding: 1em;
+    padding: 1rem 2rem;
 }
 
 .submit_application {
@@ -100,6 +104,7 @@ input:checked ~ .tab-content {
 }
 
 .submit_application button {
+    font-size: 1rem;
     width: 215px;
     height: 46px;
     background: #DFD1A7;

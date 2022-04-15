@@ -1,35 +1,29 @@
-html, body, a {
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 18px;
-    line-height: 24px;
-    color: #393939;
-}
-.price-content{
+.price-tittle {
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
+.price-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price-content > p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 input {
     position: absolute;
     opacity: 0;
     z-index: -1;
 }
-
-.row {
-    display: flex;
-}
-
-.row .col {
-    flex: 1;
-}
-
-.row .col:last-child {
-    margin-left: 1em;
-}
-
 /* Accordion styles */
 .tabs {
+    margin-top: 60px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
@@ -37,7 +31,7 @@ input {
 
 .tab {
     width: 100%;
-    color: white;
+    color: #393939;
     overflow: hidden;
 }
 
@@ -45,14 +39,15 @@ input {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    font-size: 24px;
-    background: #2c3e50;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.333rem;
+    background: #e9ecef;
+    font-weight: 500;
     cursor: pointer;
 }
 
 .tab-label:hover {
-    background: #1a252f;
+    background: #d3d4d5;
 }
 
 .tab-label::after {
@@ -76,16 +71,16 @@ input {
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: #2c3e50;
+    background: #d3d4d5;
     cursor: pointer;
 }
 
 .tab-close:hover {
-    background: #1a252f;
+    background: #d3d4d5;
 }
 
 input:checked + .tab-label {
-    background: #1a252f;
+    background: #d3d4d5;
 }
 
 input:checked + .tab-label::after {
@@ -95,4 +90,19 @@ input:checked + .tab-label::after {
 input:checked ~ .tab-content {
     max-height: 100vh;
     padding: 1em;
+}
+
+.submit_application {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit_application button {
+    width: 215px;
+    height: 46px;
+    background: #DFD1A7;
+    cursor: pointer;
+    border: none;
 }

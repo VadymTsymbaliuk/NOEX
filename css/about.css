@@ -1,13 +1,140 @@
-.flex{
+.flex {
     display: flex;
 }
-.flex-column{
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.section {
+    padding-bottom: 100px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    padding: 10px;
+}
+
+.info-side {
+    flex: 1 1 30%;
+}
+
+.content-side {
+    flex: 1 1 70%;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.justify-container-between {
+    justify-content: space-between;
+}
+
+.section-3 .item {
+    flex: 1 1 30%;
+    margin-bottom: 10px;
+}
+
+.section-5 .item-container {
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.section-6 {
+    display: flex;
     flex-direction: column;
 }
-.flex-row{
-    flex-direction: row;
+
+.certificate-container {
+    padding: 20px;
+    border: 1px solid #444444;
 }
-.section-container{
-    display: flex;
-    flex-direction: row;
+
+.certificate-container img {
+    width: 100%;
+}
+
+.item-container {
+    padding: 60px 0;
+}
+
+.item-container .item {
+    flex: 1 1 30%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.border-left {
+    border-left: 1px solid #E5E5E5;
+}
+
+.border-top {
+    border-top: 1px solid #E5E5E5;
+}
+
+.border-right {
+    border-right: 1px solid #E5E5E5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.section .category {
+    color: #CDA177
+}
+
+.btn-price {
+    display: block;
+    margin: 0 auto;
+    background: #DFD1A7;
+    padding: 15px 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .img-container {
+        flex-direction: column !important;
+    }
 }

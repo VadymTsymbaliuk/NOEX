@@ -9,11 +9,10 @@
 <body>
 <header>
     <h1>header menu</h1>
-
 </header>
 <main>
     <div class="container">
-        <section>
+        <section class="section section-1">
             <div class="section-header">
                 <div>
                     <h1>О нас</h1>
@@ -22,11 +21,13 @@
                     <a href="#">На главную</a>
                 </div>
             </div>
+        </section>
+        <section class="section section-2">
             <div class="section-container">
-                <div class="flex flex-row">
-                    <p>Мы обеспечиваем качество реализации проекта</p>
+                <div class=" flex flex-row info-side">
+                    <p class="category">Мы обеспечиваем качество реализации проекта</p>
                 </div>
-                <div class="flex flex-column">
+                <div class="flex flex-column content-side">
                     <div>
                         <p>Для реализации Вашего проекта, будь то строительство коттеджа или масштабного архитектурного
                             сооружения, необходимы качественные инженерные изыскания. Геологические, экологические и
@@ -34,209 +35,220 @@
                             Для изучения этих условий и прогноза возможных последствий необходимо изучить и предвидеть
                             все возможные факторы.</p>
                     </div>
-                    <div class="flex flex-row">
-                        <div>
+                    <div class="flex flex-row justify-container-between">
+                        <div class="img-container">
                             <img src="../images/about/sec-1_img-1.png" alt="img-1">
                         </div>
-                        <div>
+                        <div class="img-container">
                             <img src="../images/about/sec-1_img-2.png" alt="img-2">
                         </div>
                     </div>
 
                 </div>
             </div>
+        </section>
+        <section class="section section-3">
             <div class="section-container">
-                <div class="flex flex-row">
-                    <p>Инженерные изыскания</p>
+                <div class="flex flex-row info-side">
+                    <p class="category">Инженерные изыскания</p>
                 </div>
-                <div class="flex flex-column">
+                <div class="flex flex-column content-side">
                     <div>
                         <h3>Мы знаем об этом все!</h3>
                         <p>Мы стоим за крупнейшими и самыми сложными проектами столицы: все высотные здания комплекса
                             «Москва сити», Стадион «Спартак Арена», станция метро «Окская», и многие другие работы.</p>
                     </div>
-                    <div class="flex">
-                        <div class="">
+                    <div class="flex flex-row flex-wrap">
+                        <div class="item border-bottom border-right">
                             <h3>0</h3>
                             <p>Отрицательных заключений экспертизы</p>
                         </div>
-                        <div class="">
+                        <div class="item border-bottom border-right">
                             <h3>100%</h3>
                             <p>Соблюдения сроков договоров</p>
                         </div>
-                        <div class="">
+                        <div class="item border-bottom">
                             <h3>2.5</h3>
                             <p>Тонны и терабайты архивной информации</p>
                         </div>
-                        <div class="">
+                        <div class="item border-right ">
                             <h3>1000</h3>
                             <p>Более 1000 крупных объектов</p>
                         </div>
-                        <div>
+                        <div class="item border-right">
                             <h3>100</h3>
                             <p>Более 100 уникальных объектов</p>
                         </div>
+                        <div class="item">
+                            <h3>1000</h3>
+                            <p>Более 100 0уникальных объектов</p>
+                        </div>
                     </div>
-
                 </div>
             </div>
+        </section>
+        <section class="section section-4">
             <div class="section-container">
-                <div class="">
+                <div class="category info-side">
                     <p>Как мы работаем</p>
                 </div>
-                <div class="flex flex-column">
+                <div class="flex flex-column content-side">
                     <div>
                         <h3>Мы предпочитаем работать по понятной схеме</h3>
                     </div>
-                    <div class="flex">
-                        <!--TODO:зробити випадаючі елементи з детальним описом                         -->
-                        <p>Подготовка</p>
-                        <p>Подготовка</p>
-                        <p>Подготовка</p>
-                        <p>Подготовка</p>
+                    <div class="accordion-container">
+                        <!--TODO:accordion                        -->
+                        <button class="accordion">Подготовка</button>
+                        <div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellat
+                            similique vero voluptate? A commodi cupiditate dicta, dignissimos dolor earum illum itaque,
+                            iusto nesciunt officia officiis omnis ratione rerum sunt.
+                        </div>
+                        <button class="accordion">Организация</button>
+                        <div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid amet
+                            atque, culpa debitis dolore esse illum ipsa iure laboriosam laborum libero maxime odio omnis
+                            pariatur quas, quis quos sit.
+                        </div>
+                        <button class="accordion">Экспертиза</button>
+                        <div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut autem
+                            blanditiis ea, esse eveniet facere id ipsam ipsum modi molestiae neque officia quae quia quo
+                            sunt tenetur voluptas voluptatem!
+                        </div>
+                        <button class="accordion">Проведение изысканий</button>
+                        <div class="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur
+                            beatae commodi dolor est expedita ipsum, itaque, modi natus, odio officia optio sunt ullam!
+                            Cumque quibusdam quis totam. Ea, laboriosam?
+                        </div>
                     </div>
 
                 </div>
             </div>
-            <div class="section-container">
-                <div class="">
-                    <p>Чем мы отличаемся?</p>
-                </div>
-                <div class="flex flex-column">
-                    <div>
+        </section>
+        <section class="section section-5">
+            <div class="section-container flex-column">
+                <div class="flex flex-row">
+                    <div class="info-side">
+                        <p class="category">Чем мы отличаемся?</p>
+                    </div>
+                    <div class="content-side">
                         <h3>Наши преимущества</h3>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>Опыт</h3>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>Опыт</h3>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>Опыт</h3>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>Опыт</h3>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>Опыт</h3>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h3>Опыт</h3>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                        <div>
-                            <h4>Как это делаем мы</h4>
-                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-container">
-                <div class="flex flex-row">
-                    <p>Мы сертифицированная компания</p>
-                </div>
-                <div class="flex flex-column">
-                    <div>
-                        <h3>Наши Сертификаты</h3>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <span>Реестр АИИС</span>
-                        <a href="#">Посмотреть в реестре</a>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <span>Реестр АИИС</span>
-                        <a href="#">Посмотреть в реестре</a>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <span>Реестр АИИС</span>
-                        <a href="#">Посмотреть в реестре</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <button>
-                    <a class="upper-case" href="#">наши Услуги и цены</a>
-                </button>
-            </div>
 
+                </div>
+                <div>
+                    <div class="flex flex-row item-container">
+                        <div class="item">
+                            <h3>Опыт</h3>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делаем мы</h4>
+                            <p>Мы работаем уже 30 лет и накопили уникальный опыт. Любые трудности для нас это пустяк</p>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делают другие</h4>
+                            <p>Для компаний с маленьким опытом работы любая сложность может стать причиной технических
+                                ошибок, срыва сроков и непредвиденных расходов</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row item-container">
+                        <div class="item">
+                            <h3>Качество</h3>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делаем мы</h4>
+                            <p>Мы проводим весь необходимый комплекс работ для каждого объекта. Это гарантирует 100%
+                                прохождение экспертизы</p>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делают другие</h4>
+                            <p>Наши конкуренты, гонясь за низкой ценой и высокой прибылью, зачастую недобросовестно
+                                подходят к работе. Они забывают, что ИИ – одно из самых ответственных стадий
+                                проектирования</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row item-container">
+                        <div class="item">
+                            <h3>Оперативность</h3>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делаем мы</h4>
+                            <p>Мы даем быстрый ответ на ваше обращение. Обычно в течение часа</p>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делают другие</h4>
+                            <p>Заявка обрабатывается два-три дня</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row item-container">
+                        <div class="item">
+                            <h3>Кадры</h3>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делаем мы</h4>
+                            <p>В нашей профессиональной команде 13 высококвалифицированных специалистов. Из них 3
+                                кандидата, 1 доктор наук, 2 эксперта</p>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делают другие</h4>
+                            <p>Другие компании экономят на качественных кадрах. Неточные
+                                данные изысканий могут привести
+                                к некорректным проектным решениям</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row item-container">
+                        <div class="item">
+                            <h3>Сроки</h3>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делаем мы</h4>
+                            <p>Мы обладаем огромным опытом и собственной уникальной базой пройденных скважин. Это
+                                позволяет нам предвидеть проблемы и работать значительно быстрее конкурентов, и никогда
+                                не нарушать условия договора</p>
+                        </div>
+                        <div class="item">
+                            <h4>Как это делают другие</h4>
+                            <p>Большинство других компаний не укладываются в сроки</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <section class="section section-6">
+            <div class="flex flex-row">
+                <div class="info-side">
+                    <p class="category">Мы сертифицированная компания</p>
+                </div>
+                <div class="content-side">
+                    <h3>Наши Сертификаты</h3>
+                </div>
+            </div>
+            <div class="flex flex-row item-container">
+                <div class="certificate-container">
+                    <img src="../images/sec-6_img-1.jpeg" alt="">
+                    <span>Реестр АИИС</span> <br>
+                    <a href="#">Посмотреть в реестре</a>
+                </div>
+                <div class="certificate-container">
+                    <img src="../images/sec-6_img-1.jpeg" alt="">
+                    <span>Реестр АИИС</span> <br>
+                    <a href="#">Посмотреть в реестре</a>
+                </div>
+                <div class="certificate-container">
+                    <img src="../images/sec-6_img-1.jpeg" alt="">
+                    <span>Реестр АИИС</span> <br>
+                    <a href="#">Посмотреть в реестре</a>
+                </div>
+            </div>
+        </section>
+        <div>
+            <button class="btn-price">
+                <a class="upper-case" href="#">наши Услуги и цены</a>
+            </button>
+        </div>
     </div>
 </main>
 <footer>
     <h1>footer menu</h1>
 </footer>
-
+<script src="../js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+@import "about.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    line-height: 28px;
+}
+h1 ,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #393939;
+}
+h1{
+    font-size: 2.7rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.67rem;
+}
+.upper-case{
+    text-transform: uppercase;
+}
+
+

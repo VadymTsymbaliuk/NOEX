@@ -89,6 +89,79 @@ img {
     display: none;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap: 90px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer p, a {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.888rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+
+.footer-logo {
+    width: 125px;
+    height: 49px;
+    margin-bottom: 10px;
+}
+
+.footer-phone {
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.footer-phone img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.footer-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 150px;
+}
+
+.footer-link li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-link a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+
+.footer-link a:hover {
+    color: #DFD1A7;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.twitter {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: #DFD1A7;
+    transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 767px) {
     .header {
         justify-content: space-around;
@@ -199,5 +272,32 @@ img {
 
     .menu__item:hover {
         background-color: #CFD8DC;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+    .footer-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link {
+        order: 2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-links {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }

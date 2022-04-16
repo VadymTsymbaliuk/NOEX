@@ -98,7 +98,7 @@ input:checked ~ .tab-content {
 
 .submit_application {
     margin-top: 60px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
 }

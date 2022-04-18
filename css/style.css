@@ -213,11 +213,6 @@ img {
     display: block;
 }
 
-.carousel-item {
-    display: block;
-    float: left;
-}
-
 .carousel-wrapper {
     position: relative;
     padding-bottom: 39%;
@@ -240,6 +235,9 @@ img {
 }
 
 .carousel-item {
+    display: flex;
+    justify-content: center;
+    float: left;
     width: 25%;
     height: 100%;
     position: relative;

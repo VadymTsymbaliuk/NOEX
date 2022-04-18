@@ -471,7 +471,16 @@ img {
     border-bottom: 1px solid #393939;
 }
 
-.contact-us input:focus {
+.contact-us textarea {
+    font-size: 0.888rem;
+    padding: 10px 10px 0 10px;
+    display: block;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #393939;
+}
+
+.contact-us input:focus, textarea:focus {
     outline: none;
 }
 
@@ -487,9 +496,14 @@ img {
     -webkit-transition: 0.2s ease all;
 }
 
+.message label {
+    top: 25px;
+}
 /* active state */
 .contact-us input:focus ~ label,
-.contact-us input:valid ~ label {
+.contact-us input:valid ~ label,
+.contact-us textarea:focus ~ label,
+.contact-us textarea:valid ~ label {
     top: -15px;
     font-size: 0.777rem;
     color: #393939;

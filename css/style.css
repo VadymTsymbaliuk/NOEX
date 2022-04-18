@@ -770,6 +770,11 @@ img {
         width: 280px;
         max-width: 100%;
     }
+
+    .contact-us textarea {
+        width: 280px;
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

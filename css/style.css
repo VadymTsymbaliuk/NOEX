@@ -266,7 +266,7 @@ img {
 
 .carousel-label label {
     width: 36px;
-    height: 4px;
+    height: 10px;
     border-radius: 100px;
     background-color: #393939;
     display: block;

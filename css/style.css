@@ -577,8 +577,9 @@ img {
         position: fixed;
         top: 20px;
         left: 20px;
-        width: 26px;
-        height: 26px;
+        width: 36px;
+        height: 36px;
+        padding: 5px;
         cursor: pointer;
         z-index: 6;
         background-color: #DFD1A7;
@@ -589,7 +590,7 @@ img {
     .menu__btn > span::after {
         display: block;
         position: absolute;
-        width: 100%;
+        width: 26px;
         height: 2px;
         background-color: #616161;
         transition-duration: .25s;

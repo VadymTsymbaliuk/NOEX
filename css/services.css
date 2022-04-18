@@ -51,6 +51,7 @@
     position: relative;
     text-decoration-line: underline;
     text-transform: uppercase;
+    padding-right: 70px;
 }
 
 .link-to:hover {
@@ -68,6 +69,9 @@
     background-image: url("../images/services/arrow-right.png");
     background-position: center center;
     background-size: cover;
+}
+.btn-price{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px){

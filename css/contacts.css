@@ -50,6 +50,7 @@
         padding-top: 30px;
         padding-bottom: 10px;
         width: 300px;
+        max-width: 100%;
     }
 
     .contacts > div:nth-child(odd) {

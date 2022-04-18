@@ -22,7 +22,7 @@
     color: #BBBCBC;
 }
 
-.type-services-container .type-service-item {
+.type-services-container .type-service-item a{
     padding-left: 18px;
 }
 

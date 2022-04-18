@@ -3,11 +3,13 @@
     display: flex;
     justify-content: space-between;
     padding: 60px 0;
-    border-bottom: 1px solid #E5E5E5;
 }
 
 .project-item:first-child {
     border-top: 1px solid #E5E5E5;
+}
+.project-item:not(:last-child){
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .item-date {

@@ -1,1 +1,63 @@
-r
+.services-container .section-1{
+    display: flex;
+}
+
+.type-services-container {
+    margin-right: 60px;
+}
+.type-services-container{
+    flex: 1 1 30%;
+}
+.type-services-description{
+    flex: 1 1 60%;
+}
+
+.type-services-container ul {
+    list-style: none;
+}
+
+.type-services-container .type-service-item a {
+    color: #BBBCBC;
+}
+
+.type-services-container .type-service-item {
+    padding-left: 18px;
+}
+
+.type-services-container .type-service-item:hover {
+    border-left: 1px solid #CDA177;
+}
+
+.type-services-container .type-service-item:hover a {
+    color: #393939
+}
+.services-item{
+    display: flex;
+}
+
+.services-item .align-item-center{
+    align-items: center;
+}
+/*.services-item a{*/
+/*    margin-left: 20px;*/
+/*}*/
+.link-to{
+    position: relative;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.link-to:hover{
+    color: #CDA177;
+}
+.link-to::after{
+    content: "";
+    position: absolute;
+    top: -13px;
+    bottom: auto;
+    left: 90px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/services/arrow-right.png");
+    background-position: center center;
+    background-size: cover;
+}

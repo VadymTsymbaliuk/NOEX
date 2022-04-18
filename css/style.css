@@ -33,6 +33,12 @@ a {
     text-decoration: none;
     color: #393939;
 }
+p{
+    font-family: 'Courier New', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
 
 img {
     max-width: 100%;
@@ -44,6 +50,7 @@ img {
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header {

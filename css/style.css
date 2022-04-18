@@ -35,7 +35,6 @@ h3 {
 }
 
 a {
-    /*display: flex;*/
     text-decoration: none;
     color: #393939;
 }
@@ -107,6 +106,10 @@ img {
     white-space: nowrap;
 }
 
+.phone a{
+    display: flex;
+}
+
 .phone img {
     margin-right: 20px;
 }
@@ -143,6 +146,10 @@ img {
 .footer-phone {
     margin-top: 10px;
     white-space: nowrap;
+}
+
+.footer-phone a{
+    display: flex;
 }
 
 .footer-phone img {
@@ -502,7 +509,7 @@ img {
     }
 
     .header {
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 20px;
     }
     .container-tittle {

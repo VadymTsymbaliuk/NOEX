@@ -1,0 +1,66 @@
+.contacts-page h2 {
+    margin-top: 120px;
+}
+
+.contacts > div {
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #393939;
+    display: flex;
+    align-items: center;
+}
+
+.contacts div:nth-child(4) {
+    display: block;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid #393939
+}
+
+.mail a,
+.phone a,
+.home a {
+    color: #CDA177;
+}
+
+.mail {
+    padding-bottom: 20px;
+}
+
+.contacts img {
+    margin-right: 20px;
+}
+
+.contacts .social-links img {
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        grid-template-columns: none;
+        justify-items: center;
+    }
+
+    .contacts > div {
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        width: 300px;
+    }
+
+    .contacts > div:nth-child(odd) {
+        border-bottom: none;
+    }
+
+    .contacts > div:nth-child(even) {
+        padding-top: 10px;
+    }
+
+    .contacts .social-links {
+        margin: 0;
+    }
+}

@@ -2,6 +2,7 @@
 @import "prices.css";
 @import "contacts.css";
 @import "projects.css";
+@import "services.css";
 
 * {
     box-sizing: border-box;
@@ -34,7 +35,7 @@ h3 {
 }
 
 a {
-    display: flex;
+    /*display: flex;*/
     text-decoration: none;
     color: #393939;
 }

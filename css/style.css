@@ -568,7 +568,7 @@ img {
         width: 26px;
         height: 26px;
         cursor: pointer;
-        z-index: 1;
+        z-index: 6;
     }
 
     .menu__btn > span,
@@ -606,6 +606,7 @@ img {
         background-color: #e9ecef;
         box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
         transition-duration: .25s;
+        z-index: 5;
     }
 
     .menu__item {
@@ -661,7 +662,7 @@ img {
     }
 
     .main-btn {
-        padding: 0 5px;
+        padding: 5px 5px;
     }
 
     .block-btn a {
@@ -758,6 +759,10 @@ img {
 
     .carousel-labels {
         left: 10%;
+    }
+
+    .phone-number{
+        display: none;
     }
 }
 

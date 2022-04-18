@@ -1,13 +1,3 @@
-.price-tittle {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.price-tittle img{
-    margin-right: 20px;
-}
 
 .price-content {
     display: flex;

@@ -1,14 +1,16 @@
-.services-container .section-1{
+.services-container .section-1 {
     display: flex;
 }
 
 .type-services-container {
     margin-right: 60px;
 }
-.type-services-container{
+
+.type-services-container {
     flex: 1 1 30%;
 }
-.type-services-description{
+
+.type-services-description {
     flex: 1 1 60%;
 }
 
@@ -31,25 +33,31 @@
 .type-services-container .type-service-item:hover a {
     color: #393939
 }
-.services-item{
+
+.services-item {
     display: flex;
+    padding:  30px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+.type-service-item{
+    padding: 15px 0;
 }
 
-.services-item .align-item-center{
+.services-item .align-item-center {
     align-items: center;
 }
-/*.services-item a{*/
-/*    margin-left: 20px;*/
-/*}*/
-.link-to{
+
+.link-to {
     position: relative;
     text-decoration-line: underline;
     text-transform: uppercase;
 }
-.link-to:hover{
+
+.link-to:hover {
     color: #CDA177;
 }
-.link-to::after{
+
+.link-to::after {
     content: "";
     position: absolute;
     top: -13px;
@@ -60,4 +68,17 @@
     background-image: url("../images/services/arrow-right.png");
     background-position: center center;
     background-size: cover;
+}
+
+@media screen and (max-width: 768px){
+    .type-services-container{
+        display: none;
+    }
+    .services-item{
+        flex-direction: column;
+    }
+    .services-item>div{
+        margin-bottom: 30px;
+    }
+
 }

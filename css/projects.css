@@ -1,0 +1,25 @@
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+.project-item:first-child{
+    border-top: 1px solid #E5E5E5;
+}
+
+.item-date {
+    flex: 1 1 20%;
+}
+
+.item-object {
+    flex: 1 1 70%;
+}
+
+.item-object img {
+    float: left;
+    margin-right: 60px;
+}
+.item-object h3{
+    padding-bottom: 20px;
+}
